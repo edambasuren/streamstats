@@ -285,7 +285,7 @@
                                     );
                                 }
                             },
-                            error: function (data) {
+                            error: function (err) {
                                 console.log(err);
                                 alert('Something went wrong');
                             }   
